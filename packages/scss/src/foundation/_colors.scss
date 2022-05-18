@@ -1,0 +1,15 @@
+
+
+/*=============================================
+=            Global text colors               =
+=============================================*/
+$body-text-color: var(--dse-body-text-color, $gray-n80) !default;
+$body-bg-color: var(--dse-body-bg-color, $gray-n40) !default;
+
+
+/*=============================================
+=                 Buttons                     =
+=============================================*/
+$btn-primary-color: var(--dse-btn-primary-color, $gray-n40) !default;
+$btn-primary-bg: var(--dse-btn-primary-bg, $gray-n30) !default;
+$btn-primary-bg-hover: var(--dse-btn-primary-bg-hover, $gray-n80) !default;

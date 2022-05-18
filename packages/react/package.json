@@ -1,7 +1,7 @@
 {
-  "name": "@sample-web/react",
+  "name": "@vocabulary/react",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.0.9",
@@ -12,6 +12,7 @@
   },
 
   "scripts": {
-    "build": "rollup -c "
+    "build": "rollup -c",
+    "dev": "yarn build --watch"
   }
 }

@@ -5,7 +5,7 @@ interface ButtonProps {
 }
 
 const Button: React.FunctionComponent<ButtonProps> = ({label}) => {
-    return <button>{label}</button>
+    return <button className="voc-button-container">{label}</button>
 }
 
 export default Button

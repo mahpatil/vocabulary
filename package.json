@@ -1,5 +1,5 @@
 {
-  "name": "@sample-web/core",
+  "name": "@vocabulary/core",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -9,7 +9,8 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "packages/*"
+      "packages/*",
+      "playgrounds/*"
     ],
     "nohoist": [
       "**/normalize-scss"
