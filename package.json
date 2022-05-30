@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "console-log-level": "^1.4.1"
+
   },
   "private": true,
   "workspaces": {
@@ -18,7 +20,8 @@
   },
 
   "scripts": {
-    "build": "yarn lerna run build"
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
   }
 
 }

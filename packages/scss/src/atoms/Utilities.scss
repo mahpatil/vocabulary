@@ -1,0 +1,11 @@
+@import "foundation/all";
+
+@each $size, $value in $spacing {
+    .voc-width-#{$size} {
+        width: $value;
+    }
+
+    .voc-height-#{$size} {
+        height: $value;
+    }
+}

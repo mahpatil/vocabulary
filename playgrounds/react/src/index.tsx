@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom"
 import "@vocabulary/scss/lib/Button.css"
-import { Button } from '@vocabulary/react'
+import { Color } from '@vocabulary/react'
+import "@vocabulary/scss/lib/Utilities.css"
 
 ReactDOM.render(
-    <Button label='Example'/>,
+    <Color hexCode='#000'/>,
     document.querySelector('#root')
 
 )
