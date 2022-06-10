@@ -9,3 +9,14 @@
         height: $value;
     }
 }
+
+
+@each $size, $value in $image-sizes {
+    .voc-width-img-#{$size} {
+        width: $value;
+    }
+
+    .voc-height-img-#{$size} {
+        height: $value;
+    }
+}
